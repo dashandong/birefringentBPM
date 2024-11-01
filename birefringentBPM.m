@@ -328,9 +328,9 @@ function birefringentBPM()
         U_z = A(3) * exp(1i * (k_x * grid2_X + k_y * grid2_Y));
 
         % Delay the input field with 0.86*pi for better phase visualization
-        U_x = U_x * exp(1i * (-pi*0.86));
-        U_y = U_y * exp(1i * (-pi*0.86));
-        U_z = U_z * exp(1i * (-pi*0.86));
+        U_x = U_x * exp(1i * (-pi * 0.86));
+        U_y = U_y * exp(1i * (-pi * 0.86));
+        U_z = U_z * exp(1i * (-pi * 0.86));
 
         % For Gaussian Beam
         % w0 = 5e-6;
@@ -621,7 +621,7 @@ function birefringentBPM()
         % particle_Coord_R = find(grid3_R < particle_radius);
         % Az = grid3_Az(particle_Coord_R);
         % El = grid3_El(particle_Coord_R);
-        % 
+        %
         % for i_pos = 1:numel(particle_Coord_R)
         %     R = eul2rotm([Az(i_pos), El(i_pos), 0]);
         %     delta_epsilon = epsilon0 - R' * epsilon * R;
@@ -688,7 +688,7 @@ function birefringentBPM()
         % particle_Coord_R = find(grid3_R < particle_radius);
         % Az = grid3_Az(particle_Coord_R);
         % El = grid3_El(particle_Coord_R);
-        % 
+        %
         % for i_pos = 1:numel(particle_Coord_R)
         %     R = eul2rotm([Az(i_pos), El(i_pos), 0]);
         %     phi = expm(1i * k0 * d_z / 2 / n_medium * (R' * epsilon * R - epsilon0));
