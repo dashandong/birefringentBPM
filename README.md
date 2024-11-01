@@ -26,7 +26,7 @@ We thanks Dr. Gert-Jan Both for pointing out this error.
 
 ## Limitations
 
-- By using born approximation, the program is only valid for small scattering angles.
+- By using Born approximation, the program is only valid for weak scattering, i.e., the refractive index of the scatterer should be close to the background.
 - Because we split the field into the transmition and scattering field, the modle is non-conservative in energy.
 - The program is just a simple implementation of the model in the paper. It is not optimized for speed or memory usage.
 - The results may vary by changing the sampling size and the simulation range.
